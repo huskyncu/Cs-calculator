@@ -1,0 +1,15 @@
+﻿<Window x:Class="calculator.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculator"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="datasbox" HorizontalAlignment="Left" Height="246" Margin="25,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="627"/>
+        <TextBox x:Name="delbox" HorizontalAlignment="Left" Height="26" Margin="155,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" TextChanged="delbox_TextChanged"/>
+        <Button x:Name="delb" Content="Delete" HorizontalAlignment="Left" Height="26" Margin="338,329,0,0" VerticalAlignment="Top" Width="62" Click="delb_Click"/>
+
+    </Grid>
+</Window>

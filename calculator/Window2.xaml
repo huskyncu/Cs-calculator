@@ -1,0 +1,18 @@
+﻿<Window x:Class="calculator.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculator"
+        mc:Ignorable="d"
+        Title="Window2" Height="203" Width="258">
+    <Grid Margin="0,0,494,210">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="labell"  Content="資料已被存取" Grid.ColumnSpan="2" Margin="60,75,-194,-127" FontSize="20"/>
+
+
+    </Grid>
+</Window>
